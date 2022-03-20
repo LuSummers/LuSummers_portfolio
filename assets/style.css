@@ -156,7 +156,7 @@ header nav ul li a:hover {
        text-decoration: underline;
        font-style: italic;
         text-size-adjust: 50%;
-        width: 50%;
+        background-color: var(--tertiary-color);
     
 }
 
