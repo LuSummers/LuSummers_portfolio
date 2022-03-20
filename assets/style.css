@@ -5,7 +5,7 @@
 }
 
 :root {
-    --primary-color: #d9f0ee;
+    --primary-color: #f1f8f8;
     --secondary-color: #024e76;
     --tertiary-color: #dfb1c7;
 }
@@ -22,8 +22,11 @@
     color: var(--secondary-color);
     padding-bottom: 20px;
 }
+header h1{
+    font-size: 5vw;
+}
 header {
-    padding-top: 100px;
+    padding: 100px 45px 0px 45px;
     background-size: cover;
     display: flex;
     justify-content: space-between;
@@ -51,7 +54,7 @@ header nav ul {
 header nav ul li a{
     padding: 0 30px;
     font-weight: lighter;
-    font-size: 1.55vw;
+    font-size: 1.5vw;
     border-radius: 15px;
     color:var(--secondary-color);
 
@@ -62,8 +65,7 @@ header nav ul li a:hover {
     border-radius: 15px;
     text-shadow: none;
 }
-
-.about-me{
+.about-me {
     display: flex;
     flex-direction: row;
     align-items:stretch;
@@ -72,6 +74,11 @@ header nav ul li a:hover {
     padding-bottom: 20px;
     background-color: var(--primary-color);
     color: var(--secondary-color);
+}
+
+.my-photo{
+    padding-top: 20px;
+    justify-content: right;
 
 }
 
@@ -86,6 +93,7 @@ header nav ul li a:hover {
 
 }
 .contact-me-container{  
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items:stretch;
@@ -236,4 +244,126 @@ footer h3 {
     height: 100%;
     width: 100%;
 }
+.contact-me-info {
+    width: 90%;
+    text-align: center;
+    padding-bottom: 10px;
+    margin: 10px 10px 10px 10px;
+
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOPS SCREENS AND SMALLER*/
+@media screen and (max-width: 980px) {
+    header{
+        padding-bottom: 0px;
+        justify-content: center;
+
+    }
+    header nav ul li a{
+        font-size: 2.5vw;
+    }
+    .one, .two, .mywork, .column-examples, .examplecontainer {
+        display: flex;
+        flex-wrap:wrap;
+
+    }
+    .one{
+        padding-left: 40px;
+        justify-items: center;
+    }
     
+    .three{
+        width:100%;
+        height:100%;
+        justify-content: center;
+    }
+
+    .contact-me-container {
+
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    
+    .contact-me-info {
+        font-size: 18px;
+        text-align: left;
+      
+    }
+
+    .one{
+        border:none;
+    }
+    .contact-me-container:hover {
+        background: var(--primary-color);
+        color: var(--secondary-color);
+        border-radius: 0px;
+        text-shadow: none;
+    }
+}
+.about-me-description {
+        
+    width: 80%;
+    text-align: center;
+    padding-left:40px;
+    margin: 10px 10px 10px 10px;
+    font-size: 20px;
+}
+
+        /*this will be applied on any screen smaller than 980px */ 
+
+
+
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER*/
+@media screen and (max-width: 768px) {
+   
+    .column-examples,  .main, .two {
+        flex:100%;
+    }
+    header h1 {
+        font-size: 6vw;
+        padding: 10px;
+    }
+
+    .header nav {
+        margin: 10px;
+    }
+    header nav ul li a{
+        font-size: 3vw;
+       
+    }
+    .hero {
+        font-size: 3vw;
+        padding:20px;
+/*this will be applied on any screen between than 768px and 575px */
+     
+}
+
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER*/
+
+@media screen and (max-width: 575px) {
+    .contact-me-container {
+        display:flex;
+        display: flex;
+    }
+    header h1 {
+        font-size: 10vw;
+        padding: 10px;
+    }
+
+    .header nav {
+        margin: 10px;
+    }
+    header nav ul li a{
+        font-size: 3vw;
+       
+    }
+    .hero {
+        font-size: 4vw;
+        padding:20px;
+    }
+         /*this will be applied on any screen smaller than 575px */
+         
+}
