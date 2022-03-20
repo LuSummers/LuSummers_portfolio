@@ -1,0 +1,238 @@
+* {
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #d9f0ee;
+    --secondary-color: #024e76;
+    --tertiary-color: #dfb1c7;
+}
+.hero {
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: url(../images/lu\ summer\ hero.png);
+    align-items: flex-start;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    background-position: 80%;
+    color: var(--secondary-color);
+}
+header {
+    padding-top: 100px;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-image: url(../images/lu\ summer\ hero.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 9999;
+    color: var(--secondary-color);
+}
+
+.header nav {
+    margin: 10px 0px;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a{
+    padding: 0 30px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    border-radius: 15px;
+    color:var(--secondary-color);
+
+}
+header nav ul li a:hover {
+    background: var(--primary-color);
+    color: var(--tertiary-color);
+    border-radius: 15px;
+    text-shadow: none;
+}
+
+.about-me{
+    display: flex;
+    flex-direction: row;
+    align-items:stretch;
+    position: static;
+    text-align: center;
+    padding-bottom: 20px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+
+}
+
+.contact-me {
+    display: flex;
+    flex-direction: row;
+    align-items:stretch;
+    position: static;
+    text-align: center;
+   background-color: var(--primary-color);
+   color: var(--secondary-color);
+
+}
+.contact-me-container{  
+    display: flex;
+    flex-direction: row;
+    align-items:stretch;
+    position: static;
+    text-align: center;
+    color: var(--secondary-color);
+
+}
+.contact-me-container p a{ 
+    color: var(--tertiary-color);
+ }
+.contact-me-container:hover {
+        background: var(--primary-color);
+        color: var(--tertiary-color);
+        border-radius: 15px;
+        text-shadow: none;
+
+}
+
+    
+.column {
+    text-align: justify;
+    width: 90%;
+    justify-content: space-around;
+    margin:10px 10% ;
+    color: var(--secondary-color);
+    color: var(--secondary-color);
+
+}
+
+
+.one{
+   
+    border-right: 3px solid black;
+    width: 30%;
+    text-align: center;
+    padding: 50px 10px 0px 0px;
+   
+
+}
+
+.two {
+   
+    
+    width: 90%;
+    text-align: center;
+    padding-bottom: 10px;
+    margin: 10px 10px 10px 10px;
+
+}
+
+.main {
+       
+        width: 100%;
+        height: 40%;
+        text-align: center;
+        margin:20px 5px 20px 5px;
+        flex-wrap: wrap;
+        align-items: stretch;
+        position:relative;
+
+}
+.bottom-left {
+        position:absolute;
+        bottom: 8px;
+        left: 16px; 
+        text-align: left;
+       text-decoration: underline;
+       font-style: italic;
+        text-size-adjust: 50%;
+        width: 50%;
+    
+}
+
+.mywork {
+    
+    display: flex;
+    flex-direction: row;
+    align-items:stretch;
+    position: static;
+    text-align: center;
+    padding-bottom: 20px;
+   background-color: var(--primary-color);
+   color: var(--secondary-color);
+
+
+}
+.column-example{
+    width: 100%;
+}
+.examplecontainer {
+    display: flex;
+    flex-direction: row;
+    align-items:stretch;
+    position: static;
+    text-align: center;
+    color: var(--secondary-color);
+    
+}
+.three {
+
+   
+    width: 50%;
+    height: 150px;
+    margin: 10px 10px 10px 10px;
+    position: relative;
+    border: 5px solid var(--tertiary-color);
+    
+}
+
+.flex-row {
+   display:flex ;
+   
+}
+
+footer {
+
+    justify-content: space-between;
+    background: var(--primary-color);
+    width: 100%;
+    padding:20px;
+    color: var(--tertiary-color);
+    text-align: center;
+}
+footer h3 {
+    color: var(--tertiary-color);
+    font-size: 30px;
+    margin: 0;
+}
+
+.Run-buddy {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+   
+}
+
+.horiseon {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+   
+
+}
+.image{
+    height: 100%;
+    width: 100%;
+}
+    
