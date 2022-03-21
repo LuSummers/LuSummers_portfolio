@@ -3,6 +3,7 @@
     padding:0px;
     box-sizing: border-box;
 }
+/* main colors for the webpage can be editied through the "root" color options */
 
 :root {
     --primary-color: #f1f8f8;
