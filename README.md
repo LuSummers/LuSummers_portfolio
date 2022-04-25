@@ -13,7 +13,8 @@ This website showcases examples of my work. Upon selecting images in my work exp
 https://lusummers.github.io/LuSummers_portfolio/
 
 
-![image](https://user-images.githubusercontent.com/100633609/159199781-1d538132-f066-46b3-896e-d205c9652589.png)
+[image](https://user-images.githubusercontent.com/100633609/165014684-25ed96ae-abda-4abc-a07f-bc59c3ff2faa.png)
+
 
 ## Contribution
 Made by Lu Summers
