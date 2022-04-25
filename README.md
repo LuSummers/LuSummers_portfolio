@@ -12,8 +12,8 @@ This website showcases examples of my work. Upon selecting images in my work exp
 ## Website
 https://lusummers.github.io/LuSummers_portfolio/
 
+updated portfolio![image](https://user-images.githubusercontent.com/100633609/165014731-66f30edd-fdf8-4286-83e6-2b3fb27a0cd3.png)
 
-[image](https://user-images.githubusercontent.com/100633609/165014684-25ed96ae-abda-4abc-a07f-bc59c3ff2faa.png)
 
 
 ## Contribution
