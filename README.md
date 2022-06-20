@@ -12,7 +12,7 @@ This website showcases examples of my work. Upon selecting images in my work exp
 ## Website
 https://lusummers.github.io/LuSummers_portfolio/
 
-updated portfolio![image](https://user-images.githubusercontent.com/100633609/165014731-66f30edd-fdf8-4286-83e6-2b3fb27a0cd3.png)
+![lu summers portfolio -6:19](https://user-images.githubusercontent.com/100633609/174517431-d0c0ebde-ce00-4472-912e-bc9e04c2bec0.png)
 
 
 
